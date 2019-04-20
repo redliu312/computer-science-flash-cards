@@ -9,9 +9,9 @@ RUN pip install --upgrade pip \
 COPY entrypoint.sh /
 RUN chmod +x /entrypoint.sh
 
-VOLUME /src/db
+#VOLUME /src/db
 
-EXPOSE 8000
-CMD ["/entrypoint.sh"]
+#EXPOSE 8000
+#CMD ["/entrypoint.sh"]
 
 
